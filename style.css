@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow", system-ui;
+}
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* upor r code gulo all time css a thakbe dibi always */
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* id # diye r class . diye hoi  */
+
+.card {
+    width: 21%;
+    height: 350px;
+    text-align: center;
+    padding: 20px 10px;
+    border: 2px solid #111;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #111;
+    transition: 0.2s all ease-in;
+    cursor: pointer;
+}
+.card i {
+    font-size: 3rem;
+    font-weight: 100;
+}
+.card p{
+    text-align: justify !important;
+}
+#card-1:hover{
+    background-color: #ff0f37;
+    color: #fff;
+    border: 2px solid #ff0f37;
+}
+#card-1:hover button{
+    background: antiquewhite;
+    color: #111;
+}
+#card-2:hover{
+    background-color: rgb(82, 82, 245);
+    color: antiquewhite;
+    border: 2px solid rgb(82, 82, 245);
+}
+#card-2:hover button{
+    background: antiquewhite;
+    color: #111;
+}
+#card-3:hover{
+    background-color: #111;
+    color: #fff;
+    border: 2px solid #111;
+}
+#card-3:hover button{
+    background: antiquewhite;
+    color: #111;
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 0;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 16px;
+    transition: 0.2s all ease-in;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    border: 1.5px solid white;
+}
+button:active{
+    scale: 0.9;
+}
